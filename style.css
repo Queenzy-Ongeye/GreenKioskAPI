@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Gabriela', serif;
+}
+
+h1 {
+    font-weight: 800;
+    text-align: center;
+    font-size: 50px;
+}
+
+.shopList {
+    background-image: url(/uu.webp);
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.589);
+    background-blend-mode: overlay;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shopList p {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.list {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    margin-top: -5%;
+    justify-content: space-evenly;
+}
+
+ul li {
+    list-style: none;
+    display: inline-flexbox;
+    padding: 15%;
+    flex-wrap: wrap;
+    border: 5px solid whitesmoke;
+    height: 15vh;
+    width: 50vh;
+    text-align: center;
+    justify-content: center;
+}
