@@ -42,14 +42,27 @@ let products = [
     },
 ];
 
+
+
+// console.log(products);
+
 function getItems(category) {
     if (category) {
         let filteredProducts = products.filter(item => {
             return item.category === category;
         });
-        return filteredProducts;
+        let  product = document.createElement('li')
+
+        return filteredProducts.appendChild(product.document.createTextNode(category));
+    } 
+    else if (category === 'fruits') {
+        let frut = document.getElementById('fruList');
+        let fut = document.createElement('li');
+        frut.appendChild(fut.document.createTextNode(name));
     }
     return products;
+
+
 }
 
 GreensKiosk = {
