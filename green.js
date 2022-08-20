@@ -42,8 +42,6 @@ let products = [
     },
 ];
 
-
-
 // console.log(products);
 
 function getItems(category) {
@@ -51,15 +49,9 @@ function getItems(category) {
         let filteredProducts = products.filter(item => {
             return item.category === category;
         });
-        let  product = document.createElement('li')
-
-        return filteredProducts.appendChild(product.document.createTextNode(category));
+        return filteredProducts;
     } 
-    else if (category === 'fruits') {
-        let frut = document.getElementById('fruList');
-        let fut = document.createElement('li');
-        frut.appendChild(fut.document.createTextNode(name));
-    }
+
     return products;
 
 
