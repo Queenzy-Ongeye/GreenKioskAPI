@@ -57,8 +57,8 @@ function getItems(category) {
 
 }
 
-GreensKiosk = {
+green = {
     getItems: getItems
 };
 
-module.exports = GreensKiosk;
+module.exports = green;
